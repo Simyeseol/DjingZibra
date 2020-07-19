@@ -1,0 +1,22 @@
+{
+  "name": "djingzibra",
+  "version": "1.0.0",
+  "description": "running like zibra",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Simyeseol/DjingZibra.git"
+  },
+  "author": "yeseol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Simyeseol/DjingZibra/issues"
+  },
+  "homepage": "https://github.com/Simyeseol/DjingZibra#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
