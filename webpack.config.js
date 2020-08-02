@@ -9,12 +9,13 @@ const ENTRY_FILE = path.resolve(__dirname, "assets", "js", "main.js");
 const OUTPUT_DIR = path.resolve(__dirname, "static");
 
 const config = {
-    entry: ENTRY_FILE,
+    entry: ["@babel/polyfill", ENTRY_FILE],
     mode: MODE,
     module: {
         rules: [
             {
                 test: /\.scss$/,
+
                 use: [
                     {
                         loader: MiniExtractCSS.loader,
